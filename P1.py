@@ -3,7 +3,7 @@ def P1(array, n):
     for elem in array:
         if elem in numsSeen:
             return True
-        ~numsSeen[n - elem] = elem
+        numsSeen[n - elem] = elem
     return False
 
 
